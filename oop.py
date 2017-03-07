@@ -5,3 +5,13 @@ class Shape(object):
 
     def getarea(self):
         print (0)
+
+
+class Square(Shape):
+    def getarea(self, length, width):
+        print (length*width)
+
+
+class Triangle(Shape):
+    def getarea(self, length, width):
+        print (0.5*(length*width))
